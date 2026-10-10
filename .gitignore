@@ -3,6 +3,7 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+package-lock.json
 
 # testing
 /coverage
@@ -20,4 +21,18 @@ next-env.d.ts
 # debug
 npm-debug.log*
 yarn-debug.log*
-yarn-error
+yarn-error.log*
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
